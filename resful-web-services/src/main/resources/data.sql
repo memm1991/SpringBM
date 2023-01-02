@@ -1,0 +1,8 @@
+INSERT INTO user_details(id,birth_date,name) VALUES (1001,current_date() ,'Miguel')
+INSERT INTO user_details(id,birth_date,name) VALUES (1002,current_date() ,'Ranga')
+INSERT INTO user_details(id,birth_date,name) VALUES (1003,current_date() ,'Miguela')
+INSERT INTO post_details(id,description,user_id) VALUES(2001,'I want to learn microservices', 1001)
+INSERT INTO post_details(id,description,user_id) VALUES(2002,'I want to learn Docker', 1001)
+INSERT INTO post_details(id,description,user_id) VALUES(2003,'I want to learn Kubernetes', 1001)
+INSERT INTO post_details(id,description,user_id) VALUES(2004,'I want to learn Docker', 1002)
+INSERT INTO post_details(id,description,user_id) VALUES(2005,'I want to learn Docker', 1003)
